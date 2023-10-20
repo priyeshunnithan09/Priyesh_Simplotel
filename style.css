@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 28px;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+#navItem5 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+#navItem6 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 30px;
+}
+
+.icon {
+    color: black;
+    font-size: 35px;
+    margin: 5px;
+}
+
+.banner-section-bg-container {
+    height: 100vh;
+    background-image: linear-gradient(to right, #EE5858, #F0C9AE, #9DE629);
+}
+
+.background-image-container {
+    background-image: url("https://res.cloudinary.com/dqt0yajcm/image/upload/v1697727655/zqcxdtyulp6lgkysgtfg.jpg");
+    height: 85vh;
+    background-size: cover;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 100px;
+    font-weight: bold;
+}
+
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.card-container {
+    width: 55vw;
+    height: 30vh;
+    background: rgba(254, 111, 94, .7);
+    padding: 10px;
+    padding-top: 35px;
+    padding-left: 35px;
+
+}
+
+@media(max-width:575px) {
+    .banner-caption {
+        font-size: 11px;
+    }
+
+    .banner-heading {
+        font-size: 18px;
+    }
+
+    .card-container {
+        padding-top: 8px;
+        padding-left: 10px;
+        margin-left: 25px;
+    }
+}
+
+@media(min-width:576px) {
+    .banner-caption {
+        font-size: 19px;
+    }
+
+    .banner-heading {
+        font-size: 25px;
+    }
+
+    .card-container {
+        padding-top: 8px;
+        padding-left: 10px;
+        margin-left: 55px;
+    }
+}
+
+@media(min-width:768px) {
+    .banner-caption {
+        font-size: 25px;
+    }
+
+    .banner-heading {
+        font-size: 35px;
+    }
+
+    .card-container {
+        padding-top: 8px;
+        padding-left: 10px;
+        margin-left: 65px;
+    }
+}
+
+.section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media(min-width:992px) {
+    .banner-caption {
+        font-size: 32px;
+    }
+
+    .banner-heading {
+        font-size: 45px;
+    }
+
+    .card-container {
+
+        padding-top: 8px;
+        padding-left: 10px;
+        margin-left: 75px;
+    }
+}
+
+.section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+}
+
+@media(min-width:1200px) {
+    .banner-caption {
+        font-size: 35px;
+    }
+
+    .banner-heading {
+        font-size: 55px;
+    }
+
+    .card-container {
+        height: 55vh;
+        width: 45vw;
+        padding-top: 15px;
+        padding-left: 25px;
+        padding-right: 20px;
+        margin-left: 75px;
+
+    }
+}
+
+.section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.wcu-card {
+
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.wcu-card-image {
+    width: 180px;
+    height: 195px;
+    border-top-right-radius: 50px;
+
+}
+
+.wcu-section {
+
+    background-image: linear-gradient(to right, #EE5858, #F0C9AE, #9DE629);
+}
+
+.buttons-container {
+    text-align: center;
+}
+
+.section-heading {
+    color: white;
+}
+
+.order-button {
+    color: black;
+    font-weight: bold;
+    background: rgba(255, 182, 193, .5);
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 25px;
+}
