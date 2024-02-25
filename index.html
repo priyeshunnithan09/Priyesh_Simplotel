@@ -2,91 +2,62 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/74f880479f.js" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav  m-auto">
-                    <a class="nav-link active" id="navItem1" href="#banner-section-bg-container">
-                        Home
-                        <span class="sr-only">(current)</span>
-                    </a>
-                    <a class="nav-link" id="navItem2" href="#wcuSection">Order</a>
-                    <a class="nav-link" id="navItem3" href="#">Food</a>
-                    <a class="nav-link" id="navItem4" href="#">Restaurant</a>
-                    <a class="nav-link" id="navItem5" href="#">Testimonials</a>
-                    <a class="nav-link" id="navItem6" href="#">Contact Us</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-whatsapp icon"></i>
-                    <i class="fa-solid fa-cart-shopping icon"></i>
-                </div>
-            </div>
-        </div>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li class="home"><a href="#">Home</a></li>
+            <li><a href="#">Order</a></li>
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Restaurant</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <label for="navbarCheckbox" class="navbar-toggle">&#9776;</label>
     </nav>
-    <div class="banner-section-bg-container">
-        <div class="background-image-container  d-flex flex-column justify-content-center flex-column">
-            <div class="card-container">
-                <h1 class="banner-heading">LOREM IPSUM</h1>
-                <p class="banner-caption">Lorem Ipsum has been the industry's standard dummy
-                    text ever since the 1500s, when an unknown printer took
-                    a galley of type and scrambled it to make a type
-                    specimen book.</p>
-            </div>
-        </div>
-    </div>
-    <div class="wcu-section pt-2 pb-5" id="wcuSection">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="section-heading "> Order Now</h1>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="wcu-card p-3 mb-3">
-                        <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1697729381/gfl12midhkxmnr3zcj3y.jpg" class="wcu-card-image" />
-                        <h1 class="card-title mt-3">Burger</h1>
-                        <p class="card-description">
-                            Lorem Ipsum has been the
-                            industry's standard dummy text
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="wcu-card p-3 mb-3">
-                        <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1697728416/ftuuv1thgkm7lb1i8ot3.jpg" class="wcu-card-image" />
-                        <h1 class="card-title mt-3">Pizza</h1>
-                        <p class="card-description">
-                            Lorem Ipsum has been the
-                            industry's standard dummy text
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="wcu-card p-3 mb-3">
-                        <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1697729161/ewwi7m9uegw6pj2qwv1y.jpg" class="wcu-card-image" />
-                        <h1 class="card-title mt-3">Pasta</h1>
-                        <p class="card-description">
-                            Lorem Ipsum has been the
-                            industry's standard dummy text
+    <div class="container">
+        <div class="bg-container">
 
-                        </p>
-                    </div>
-                </div>
-                <div class="m-auto">
-                    <button class="order-button">Order</button>
+        </div>
+        <div class="info">
+            <h1 class="lorem">LOREM IPSUM</h1>
+            <p class="lorem_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+                id est vitae dolor rhoncus tristique. Maecenas metus quam,
+                rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+                dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+                Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+                Sed pulvinar, massa ac porta viverra.</p>
+            <button class="click">Click Me</button>
+        </div>
+        <div class="bg-img">
+            <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1708321606/pnnqw8qszokbcjkqwqjr.jpg" class="img1" />
+        </div>
+
+    </div>
+    <div class="container2">
+        <div class="two_img">
+            <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1708340153/lclo0s1r3vnbypw2qpa8.jpg" class="img2" />
+            <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1708340118/vcpc7bdwnfr9tt4qdbdr.jpg" class="img3" />
+        </div>
+        <div class="img-info2">
+            <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1708340138/gtahg8veetpkrtk6u3hq.jpg" class="img4" />
+            <div class="info2">
+                <h2 class="lorem2">LOREM IPSUM</h2>
+                <h1 class="lorem3">LOREM IPSUM SET ADEMIR</h1>
+                <div class="click2">
+                    <h2 class="click_2">
+                        Click
+                        <span style='font-size:25px;'>&#8594;</span>
+                    </h2>
+
                 </div>
             </div>
         </div>
