@@ -16,10 +16,9 @@ body {
     display: block;
     text-align: center;
     padding: 10px 5px;
-    /* Adjust padding to reduce space */
     text-decoration: none;
     color: #333;
-    /* Change link color as needed */
+
 }
 
 @media screen and (max-width: 600px) {
@@ -28,17 +27,15 @@ body {
         display: block;
         text-align: left;
         padding: 10px;
-        /* Adjust padding for smaller screens */
+
     }
 }
 
 
 .logo {
     width: 50px;
-    /* Adjust the width of the logo */
     margin: 0;
     padding: 0;
-    /* Add some margin between the logo and the first anchor element */
 }
 
 .navbar a {
@@ -54,7 +51,7 @@ body {
 
 .navbar a:hover {
     background-color: #ddd;
-    /* Add hover effect */
+
 }
 
 @media screen and (max-width: 600px) {
@@ -67,15 +64,31 @@ body {
 
 
 .container1 {
-    background-image: url('https://res.cloudinary.com/dqt0yajcm/image/upload/v1714723586/heroimg_aihvrz.jpg');
     height: 100vh;
     width: 100vw;
-    background-size: 100% auto;
-    background-position: top;
-    background-repeat: no-repeat;
     background-color: #bac4c3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
+
+.bg {
+    background-image: url('https://res.cloudinary.com/dqt0yajcm/image/upload/v1714723586/heroimg_aihvrz.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
 
 .ipsum {
     font-family: Sans-serif;
@@ -139,6 +152,10 @@ body {
         height: 70vh;
     }
 
+    .bg {
+        background-position: top;
+    }
+
     .ipsum {
         font-size: 10px;
         height: 3vh;
@@ -182,6 +199,10 @@ body {
     .para {
         font-size: 15px;
         margin-bottom: 35px;
+    }
+
+    .bg {
+        background-position: top;
     }
 
     .container1 {
@@ -233,6 +254,10 @@ body {
     .para {
         font-size: 15px;
         margin-bottom: 75px;
+    }
+
+    .bg {
+        background-position: top;
     }
 
     .container1 {
@@ -288,6 +313,10 @@ body {
         margin-bottom: 80px;
     }
 
+    .bg {
+        background-position: top;
+    }
+
     .container1 {
         height: 80vh;
     }
@@ -335,6 +364,18 @@ body {
         font-size: 20px;
     }
 
+    .bg {
+        background-position: center;
+    }
+
+    .para_container2 {
+        height: 90vh;
+    }
+
+    .img {
+        height: 45vh;
+    }
+
     .para {
         font-size: 20px;
         margin: 5px;
@@ -344,6 +385,7 @@ body {
     .container1 {
         height: 100vh;
     }
+
 
     .ipsum {
         font-size: 22px;
