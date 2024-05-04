@@ -2,7 +2,8 @@
 <html>
 
 <head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -12,52 +13,63 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <ul class="nav-links">
-            <li class="home"><a href="#">Home</a></li>
-            <li><a href="#">Order</a></li>
-            <li><a href="#">Food</a></li>
-            <li><a href="#">Restaurant</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-        <label for="navbarCheckbox" class="navbar-toggle">&#9776;</label>
-    </nav>
-    <div class="container">
-        <div class="bg-container">
-
-        </div>
-        <div class="info">
-            <h1 class="lorem">LOREM IPSUM</h1>
-            <p class="lorem_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                id est vitae dolor rhoncus tristique. Maecenas metus quam,
-                rhoncus euismod lorem in, sollicitudin viverra eros. Donec
-                dictum luctus quam ut tristique. Curabitur nec faucibus purus.
-                Quisque congue sem nec justo mollis, in tincidunt erat pretium.
-                Sed pulvinar, massa ac porta viverra.</p>
-            <button class="click">Click Me</button>
-        </div>
-        <div class="bg-img">
-            <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1708321606/pnnqw8qszokbcjkqwqjr.jpg" class="img1" />
-        </div>
-
+    <div class="navbar">
+        <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1714721398/phoenix-logo_ax7a3p.png" alt="Logo" class="logo"> <!-- Add your logo here -->
+        <a class="active" href="#">Home</a>
+        <a href="#">Order</a>
+        <a href="#">Food</a>
+        <a href="#">Restaurant</a>
+        <a href="#">Testimonials</a>
+        <a href="#">Contact Us</a>
     </div>
-    <div class="container2">
-        <div class="two_img">
-            <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1708340153/lclo0s1r3vnbypw2qpa8.jpg" class="img2" />
-            <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1708340118/vcpc7bdwnfr9tt4qdbdr.jpg" class="img3" />
+
+
+    <div class="container1 d-flex flex-column justify-content-end">
+        <div class="ipsum">
+            Lorem Ipsum
         </div>
-        <div class="img-info2">
-            <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1708340138/gtahg8veetpkrtk6u3hq.jpg" class="img4" />
-            <div class="info2">
-                <h2 class="lorem2">LOREM IPSUM</h2>
-                <h1 class="lorem3">LOREM IPSUM SET ADEMIR</h1>
-                <div class="click2">
-                    <h2 class="click_2">
-                        Click
-                    </h2>
-                    <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1709628945/icons8-arrow-30_xobgym.png" class="arrow" />
-                </div>
+        <div class="para_container1 d-flex flex-row">
+            <div>
+                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
+
+            <div>
+                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
+
+            <div>
+                <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
+        </div>
+    </div>
+    <div class="para_container2" style="margin: 5px;">
+        <h1 class="lorem">Lorem Ipsum</h1>
+        <div class="three_para d-flex flex-row">
+            <div class="para_one d-flex flex-column" style="text-align: left; margin: 5px;">
+                <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1714724601/rooms_o7ldgs.jpg" class="img" />
+                <h2 class="h2">
+                    Rooms
+                </h2>
+                <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="button" style="margin-right: auto;">Learn More</button>
+            </div>
+
+            <div class="para_two d-flex flex-column" style="text-align: center; margin: 5px;">
+                <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1714800652/dining_al5z2u.jpg" class="img" style="margin: auto;" />
+                <h2 class="h2">
+                    Dining
+                </h2>
+                <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="button" style="margin: auto;">Learn More</button>
+            </div>
+
+            <div class="para_three d-flex flex-column" style="text-align: right;  margin: 5px; ">
+                <img src="https://res.cloudinary.com/dqt0yajcm/image/upload/v1714800553/pool_ho7fhu.jpg" class="img" style="margin-left: auto;" />
+                <h2 class="h2">
+                    Pools
+                </h2>
+                <p class="p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button class="button" style="margin-left: auto;">Learn More</button>
             </div>
         </div>
     </div>
